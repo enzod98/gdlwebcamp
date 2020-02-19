@@ -191,7 +191,7 @@ $(function() {
     $('.resumen-evento li:nth-child(4) p').animateNumber({ number: 9 }, 3000);
 
     //Cuenta regresiva de días
-    $('.cuenta-regresiva').countdown('2019/12/23 00:00:00', function(event) {
+    $('.cuenta-regresiva').countdown('2020/12/23 00:00:00', function(event) {
         $('#dias').html(event.strftime('%D'));
         $('#horas').html(event.strftime('%H'));
         $('#minutos').html(event.strftime('%M'));
